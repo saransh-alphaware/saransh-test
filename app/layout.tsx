@@ -1,6 +1,6 @@
 import "./globals.css"
 import type { Metadata } from "next"
-import { Montserrat } from "next/font/google"
+// import { Montserrat } from "next/font/google"
 import { ThemeProvider } from "next-themes"
 import type React from "react"
 import localFont from "next/font/local"
@@ -26,7 +26,7 @@ const customFont = localFont({
   variable: "--font-custom",
 })
 
-const montserrat = Montserrat({ subsets: ["latin"] })
+// const montserrat = Montserrat({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Adrizz - Digital Marketing Agency",

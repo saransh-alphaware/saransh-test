@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Rocket } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
 import Lottie from "lottie-react"
 import groovyWalkAnimation from "./assets/hero.json";
@@ -81,7 +81,6 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <div className="relative z-10 animation-float">
-              {/* <Rocket className="w-full h-auto text-purple-600" /> */}
               <Lottie animationData={groovyWalkAnimation} loop={true} />
             </div>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-r from-purple-200 to-blue-200 rounded-full blur-3xl opacity-20" />
