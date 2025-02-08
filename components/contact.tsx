@@ -33,7 +33,7 @@ export default function Contact() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Let's Grow Together</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{`Let's Grow Together`}</h2>
           <p className="text-gray-600 dark:text-gray-500">
             Ready to take your digital presence to the next level? Get in touch with us today.
           </p>

@@ -62,7 +62,7 @@ export default function ClientTestimonials() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">Client Testimonials</h2>
           <p className="text-gray-600 dark:text-gray-500">
-            Don't just take our word for it. Here's what our clients have to say about working with Adrizz.
+            {`Don't just take our word for it. Here's what our clients have to say about working with Adrizz.`}
           </p>
         </motion.div>
 

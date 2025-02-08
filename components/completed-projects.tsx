@@ -104,8 +104,7 @@ export default function CompletedProjects() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Completed Projects</h2>
           <p className="text-gray-600 dark:text-gray-500">
-            Take a look at some of our recent success stories and see how we've helped businesses achieve their digital
-            marketing goals.
+            {`Take a look at some of our recent success stories and see how we've helped businesses achieve their digital marketing goals.`}
           </p>
         </motion.div>
 
