@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { motion } from "framer-motion"
 import { ThemeSwitch } from "./theme-switch"
-import Image from "next/image"
 import Logo from "./assets/Logo"
 
 export default function Navbar() {
