@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        montserrat: ["var(--font-montserrat)", ...fontFamily.sans],
+        sans: ["var(--font-golos-text)", ...fontFamily.sans],
       },
       colors: {
         border: "hsl(var(--border))",

@@ -134,29 +134,10 @@
   animation-delay: 4s;
 }
 
-/* @layer base {
-  body {
-    @apply transition-colors duration-300 ease-in-out font-montserrat;
-  }
-} */
-
-
 @layer base {
   body {
-    @apply transition-colors duration-300 ease-in-out font-sans;
+    @apply transition-colors duration-300 ease-in-out;
   }
-}
-
-.font-custom-normal {
-  font-weight: 400;
-}
-
-.font-custom-semibold {
-  font-weight: 600;
-}
-
-.font-custom-bold {
-  font-weight: 700;
 }
 
 @keyframes bounceEffect {

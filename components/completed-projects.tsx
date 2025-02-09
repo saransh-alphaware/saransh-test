@@ -67,19 +67,11 @@ export default function CompletedProjects() {
         </motion.div>
 
         <div className="relative mb-24">
-          {/* <div
-            className="absolute top-1/2 left-0 right-0 h-0.5 bg-gray-300 dark:bg-gray-700 transform -translate-y-1/2"
-            style={{
-              backgroundImage: "linear-gradient(to right, #0d4e9e 50%, transparent 50%)",
-              backgroundSize: "20px 1px",
-              backgroundRepeat: "repeat-x",
-            }}
-          ></div> */}
-          <div className="relative z-10 flex justify-between">
+          <div className="relative z-10 flex flex-wrap md:flex-nowrap justify-between">
             {workSteps.map((step, index) => (
               <motion.div
                 key={index}
-                className="flex flex-col items-center"
+                className="flex flex-col items-center w-full md:w-auto mb-8 md:mb-0"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.2 }}

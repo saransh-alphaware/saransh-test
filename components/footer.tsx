@@ -30,16 +30,16 @@ export default function Footer() {
               Transforming businesses through innovative digital marketing solutions.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-600 hover:text-white transition-colors">
+              <a href="#" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-white transition-colors">
+              <a href="#" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-white transition-colors">
+              <a href="#" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-white transition-colors">
+              <a href="#" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
             </div>
@@ -49,22 +49,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-white transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-gray-600 hover:text-white transition-colors">
+                <Link href="#services" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="#clients" className="text-gray-600 hover:text-white transition-colors">
+                <Link href="#clients" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                   Clients
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-gray-600 hover:text-white transition-colors">
+                <Link href="#contact" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                   Contact
                 </Link>
               </li>
@@ -75,22 +75,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-white transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                   SEO Optimization
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-white transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                   Social Media Marketing
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-white transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                   Content Marketing
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-white transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-[#0d4e9e] transition-colors">
                   PPC Advertising
                 </Link>
               </li>
